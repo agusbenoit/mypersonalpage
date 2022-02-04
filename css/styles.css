@@ -215,6 +215,7 @@ h1,h2,h3{
     margin: 0 auto;
     padding: 2rem;
     border-radius: 1rem;
+    align-items: center;
 }
 
 .formulario fieldset {
