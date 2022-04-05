@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Pulling changes on VM
         id: Pull
-        uses: agusbenoit/pull-linode-action@v0.0.1
+        uses: agusbenoit/pull-linode-action@v0.0.2
         with:
           linodevm: ${{ secrets.linodevm }}
           linodeuser: ${{ secrets.linodeuser }}
