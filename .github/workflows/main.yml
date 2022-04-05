@@ -9,6 +9,6 @@ jobs:
         id: Pull
         uses: agusbenoit/pull-linode-action@v0.0.1
         with:
-          linodevm: 'agusbenoit.com'
-          linodeuser: 'ghaction'
-          linodeuserpwd: 'admin123'
+          linodevm: ${{ secrets.linodevm }}
+          linodeuser: ${{ secrets.linodeuser }}
+          linodeuserpwd: ${{ secrets.linodeuserpwd }}
