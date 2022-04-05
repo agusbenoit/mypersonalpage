@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:
+  pull_changes:
+    runs-on: ubuntu-latest
+    name: A job to update page
+    steps:
+      - name: Pulling changes on VM
+        id: Pull
+        uses: agusbenoit/pull-linode-action@v0.0.2
+        with:
+          linodevm: ${{ secrets.linodevm }}
+          linodeuser: ${{ secrets.linodeuser }}
+          linodeuserpwd: ${{ secrets.linodeuserpwd }}
