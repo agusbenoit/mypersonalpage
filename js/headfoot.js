@@ -8,7 +8,7 @@ var cad =`
         <nav class="navegacion-principal contenedor">
             <a href="index.html">Index</a>
             <a href="sobremi.html">About me</a>
-            <a href="https://www.linkedin.com/in/agust%C3%ADn-benoit-05395335/" target="_blank">LinkdIn</a>
+            <a href="https://www.linkedin.com/in/agust%C3%ADn-benoit-05395335/" target="_blank">LinkedIn</a>
             <a href="img/Resume-2022.pdf" target="_blank">Resume</a>
             <a href="contacto.html">How to reach me</a>
         </nav>
